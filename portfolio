@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8ea5c0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jonnadula Mahesh</h1>
+        <p>Web Developer</p>
+    </header>
+    
+    <section id="about">
+       
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="about me.jpg" alt="">
+            <p>I am a passionate web developer with experience in HTML, CSS, and JavaScript. I love creating beautiful and functional websites.</p>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>Bootstrap</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="floor cleaner robo.jpg" alt="">
+            <h3>Design and implementation of floor cleaning robot</h3>
+            <p>•Implemented a Smart healthcare monitoring system to address challenges in homebased healthcare <br>
+                •Identified the need for real-time and at-home healthcare system for senior citizens, based on review. Engineered a advanced data analytics techniques to analyze collected data and provide timely insights. <br>
+                •Optimized the effectiveness of the system in reducing hospitalization rates and improving overall health outcomes for senior citizens. <br>
+                </p>
+        </div>
+       
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>Download Resume</a>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: jonadulamahesh2001@example.com</p>
+        <p>Phone: 9440908553</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Jonnadula Mahesh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
