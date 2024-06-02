@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admired Person Tribute</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+    background-color: antiquewhite;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    margin: 10px;
+    width: 300px; 
+    height: auto;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Suresh Raina</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#qualities">Admirable Qualities</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Person You Admire</h2>
+        <p>Suresh Raina was born in 27 November 1986 is an Indian former international cricketer. He occasionally served as stand-in captain for Indian men's national cricket team as well as in IPL for Chennai Super Kings during the absence of the main captain, MS Dhoni. He played for Uttar Pradesh (UP) in domestic cricket circuit.[7] He is an aggressive left-handed middle-order batsman and an occasional off-spin bowler. He is the second-youngest player ever to captain India.[8] He was the captain of Gujarat Lions in the Indian Premier League (IPL), and he also served as vice-captain of the Chennai Super Kings.[9] He is the first Indian batsman to hit a century in all three formats of international cricket.[10] During his time with India, he won the 2011 Cricket World Cup and the 2013 ICC Champions Trophy. 
+            Raina made history being the first Indian to score a century in the ICC Men's T20 World Cup, which he did with his 101 runs against South Africa at the 2010 Tournament.</p>
+    </section>
+
+    <section id="qualities">
+        <h2>Admirable Qualities</h2>
+        <p> His consistent performance on the field and ability to lead his team to victory showcase his competitive nature and drive for success. Additionally, his charismatic personality and ability to connect with fans and teammates suggest a desire for approval and admiration.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="image-container">
+            <img src="images\raina4.jpg" alt="" width="100px" height="100px">
+            <img src="images\raina2.jpg" alt="" width="100px" height="100px">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jonnadula Mahesh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
